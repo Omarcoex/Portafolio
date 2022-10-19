@@ -4,3 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Encabezado */
+.container{
+  border-bottom: solid 2px;
+}
