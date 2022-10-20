@@ -5,6 +5,16 @@
   box-sizing: border-box;
 }
 /* Encabezado */
-.container{
+.container {
   border-bottom: solid 2px;
+  background-color: goldenrod;
+}
+.navbar a{
+  color: black;
+}
+li {
+  font-weight: bold;
+}
+.menu a {
+  color: black;
 }
