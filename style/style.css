@@ -13,8 +13,25 @@ body {
   height: 100vh; */
   background-color: rgb(230, 230, 230);
 }
-header {
-}
+/* Se crea la barra desplazamiento inicio */
+.backtotop {
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 55px;
+  height: 60px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+  color: #808080;
+  }
+  .backtotop i {
+  font-size: 50px;
+  }
+  /* Finaliza barra desplazamiento */
+  
 /* Encabezado */
 .container {
   border-bottom: solid 2px;
