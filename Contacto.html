@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/contacto.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <h1>Registro Usuario</h1>
+        <form>
+            <fieldset style="width:300px">
+                <legend>Registation Form</legend>
+                <table>
+                    <tr>
+                        <input type="text" placeholder="Firstname" maxlength="10">
+                    </tr>
+                    <br><br>
+                    <tr>
+                        <input type="text" placeholder="Lastname" maxlength="10">
+                    </tr>
+                    <br><br>
+                    <tr>
+                        <input type="email" placeholder="username@gmail.com" id="e">
+                    </tr>
+                    <br><br>
+                    <tr>
+                        <input type="password" placeholder="Password">
+                    </tr>
+                    <br><br>
+                    <tr>
+                        <input type="password" placeholder="Confirm">
+                    </tr>
+                    <br><br>
+                    <tr>
+                        <input type="text" placeholder="Contact">
+                    </tr>
+                    <br><br>
+                    <tr>
+                        <label>Genero:</label>
+                        <select id="gender">
+                            <option value="male">Masculino</option>
+                            <option value="female">Feminino</option>
+                            <option value="others">Otro</option>
+                        </select>
+                    </tr>
+                    <br><br>
+                    <tr><input type="submit" onclick="validate()" value="create">
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>
